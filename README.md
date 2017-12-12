@@ -17,4 +17,5 @@ dotnet run
 
 export DOTNET_CLI_UI_LANGUAGE=en-US
 dotnet --info
+dotnet --version
 ```

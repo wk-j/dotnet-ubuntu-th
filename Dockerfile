@@ -13,7 +13,7 @@ RUN apt-get install -y lsb-core
 RUN locale-gen th_TH.UTF-8
 ENV LANG='th_TH.UTF-8' LANGUAGE='th_TH.UTF-8' LC_ALL='th_TH.UTF-8'
 
-RUN apt-get install -y --allow-unauthenticated dotnet-sdk-2.0.3
+RUN apt-get install -y --allow-unauthenticated dotnet-sdk-2.1.2
 
 RUN mkdir /app/
 WORKDIR /app/
